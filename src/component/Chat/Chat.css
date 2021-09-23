@@ -1,0 +1,21 @@
+.main{
+    padding-top:100px ;
+    width: 100%;
+}
+.Chats{
+    /* background-color: grey; */
+    overflow-y: scroll;
+}
+.chatleft{
+    display: flex;
+    justify-content: flex-start;
+}
+.chatleft h1{
+    background-color: greenyellow;
+    border-radius:100px ;
+    color: red;
+}
+.chatright{
+    display: flex;
+    justify-content: flex-end;
+}

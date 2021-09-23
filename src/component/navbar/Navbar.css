@@ -1,0 +1,39 @@
+.logo{
+    /* flex: 1; */
+    width: 100vw;
+    height: auto;
+    background-color:transparent;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 25px;
+   position: fixed;
+   }
+   .logo1 {
+     flex: 10;
+     margin-left: 10px;
+   }
+   .logo1 .logo2{
+    font-size: 30px;
+    color: black;
+    
+   }
+   .logo1 .logo2 span{
+     color: crimson;
+     font-weight: 700;
+   }
+   .mr-auto{
+     flex: 20;
+     text-align: center;
+     color: white;
+     text-decoration: none;
+     list-style: none;
+     /* font-size: 20px; */
+   }
+   .links{
+     color: black;
+     text-decoration: none;
+   }
+   .navname{
+    color: crimson;
+   }

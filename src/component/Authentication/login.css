@@ -1,0 +1,237 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  .maincontainer{
+    /* background-color: #f0f2f5;
+    height: auto;
+    width: 100%;
+    display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    background: linear-gradient(
+        to right, 
+        #ebeaea 0%, 
+        #ebeaea 45%, 
+        #bcb4ab 45%, 
+        #bcb4ab 100%
+      );
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .firstdiv{
+    width: auto;
+    padding-top: 180px;
+    padding-left: 180px;
+  }
+  .firstdiv h1{
+    color: #1877f2;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing:-3px;
+  }
+  .firstdiv p{
+    font-size: 27px;
+    font-weight: 450;
+  }
+  .seconddiv{
+    background-color: #ffffff;
+    margin-top: 120px;
+    height: 360px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+  .seconddiv form input{
+    display: block;
+    width: 90%;
+    height: 45px;
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid #9e9c9c;
+    border-radius: 5px;
+    outline: none;
+  }
+  .seconddiv form input:focus{
+    border:1px solid #1877f2;
+    box-shadow: 0.5px 0.5px 1px #1877f2;
+    border:2px solid rgba(24,119,142,0.9);
+  }
+  .seconddiv form .button1{
+    width: 90%;
+    height: 45px;
+    border-radius: 6px;
+    background-color:#ebeaea;
+    margin-left: 15px;
+    outline: none;
+    border-style: none;
+    text-align: center;
+    align-items: center;  
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .seconddiv form p{
+    color: #1877f2;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+  }
+  .seconddiv form p::after {
+    content: "";
+    background-color: black;
+    height: 5px;
+    width: 90%;
+  }
+  .seconddiv form .button2{
+    width: 60%;
+    height: 50px;
+    border-radius: 6px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #bcb4ab;
+    border-style: none;
+    margin-top: 25px;
+    margin-left:70px ;
+    cursor: pointer;
+  }
+  .para{
+    margin-top: 30px ;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .para span{
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .para span:hover{
+    border-bottom: 2px solid #000;
+  }
+  .firstdiv1{
+  align-items: center;
+  display: block;
+  position: relative;
+  padding-top: 125px;
+  padding-left: 35%;
+  justify-content: center;
+  align-items: center;
+  }
+  .firstdiv1 h1{
+    color: #1877f2;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing:-3px;
+  }
+  .seconddiv1{
+    background-color: #ffffff;
+    margin-top: 40px;
+    height: 360px;
+    width: 380px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+  .seconddiv1 form input{
+    display: block;
+    width: 90%;
+    height: 45px;
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid #9e9c9c;
+    border-radius: 5px;
+    outline: none;
+  }
+  .seconddiv1 form input:focus{
+    border:1px solid #1877f2;
+    box-shadow: 0.5px 0.5px 1px #1877f2;
+    border:2px solid rgba(24,119,142,0.9);
+  }
+  .seconddiv1 form .button1{
+    width: 90%;
+    height: 45px;
+    border-radius: 6px;
+    background-color:#1877f2;
+    margin-left: 15px;
+    outline: none;
+    border-style: none;
+    text-align: center;
+    align-items: center;  
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .seconddiv1 form p{
+    color: #1877f2;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+  }
+  .seconddiv1 form p::after {
+    content: "";
+    background-color: black;
+    height: 5px;
+    width: 90%;
+  }
+  .seconddiv1 form .button2{
+    width: 60%;
+    height: 50px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #36a420;
+    border-style: none;
+    margin-top: 25px;
+    margin-left:70px ;
+    cursor: pointer;
+  }
+  .statediv{
+    background-color: #f0f2f5;
+    width: 100%;
+    height: 680px;
+    padding: 0%;
+    margin: 0%;
+    /* position: relative;
+    padding-top: 150px;
+     padding-left: 35%; */
+  }
+  .stateform{
+    width: 500px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+  }
+  .button1{
+    width: 90%;
+    height: 45px;
+    border-radius: 6px;
+    background-color:#36a420;
+    margin-left: 15px;
+    outline: none;
+    border-style: none;
+    text-align: center;
+    align-items: center;  
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  /* firstdiv
+     seconddiv
+  */
